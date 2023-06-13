@@ -8,6 +8,7 @@ BODY {
   font-weight: 400;
 }
 
+/* Style all elements with the class name "menu" */
 .menu {
   text-align: center;
   margin: 0px 0px 0px 0px;
@@ -15,6 +16,7 @@ BODY {
 }
 
 /* name banner at top center */
+/* Style the element with the id "name" */
 #name {
   font-size: 3em;
   text-transform: uppercase;
@@ -30,6 +32,7 @@ BODY {
 
 
 /* position title under contact info */
+/* Style the element with the id "title" */
 #title {
   color:#33485e;
   text-transform: uppercase;
@@ -43,6 +46,7 @@ BODY {
 }
 
 /* section title banners */
+/* Style all elements with the class name "sectionheader" */
 .sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
@@ -58,18 +62,21 @@ BODY {
 }
 
 /* job titles */
+/* Style all elements with the class name "jobtitle" */
 .jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* job organizations */
+/* Style all elements with the class name "organization" */
 .organization {
   font-weight: 400;
   font-size: 1.25em;
 }
 
 /* job dates */
+/* Style all elements with the class name "date" */
 .date {
   font-weight: 400;
   font-size: 1em;
@@ -81,6 +88,7 @@ BODY {
 }
 
 /* paragraphs */
+/* Style all elements with the class name "description" */
 .description {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -93,10 +101,12 @@ li {
   display: inline;
 }
 
+/* Style the element with the id "degrees" */
 #degrees {
-  margin: 5px 0px 0px 0px; 
+  margin: 5px 0px 0px 0px;
 }
 
+/* Style the element with the id "do" */
 #do {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -109,6 +119,7 @@ ul {
   font-size: 1em;
 }
 
+/* Style all elements with the class name "top" */
 .top {
   width: 60%;
   min-width: 300px;
@@ -116,6 +127,7 @@ ul {
   margin-bottom: 30px;
 }
 
+/* Style all elements with the class name "container" */
 .container {
   width: 100%;
   max-width: 1200px;
