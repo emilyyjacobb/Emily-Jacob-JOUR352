@@ -45,17 +45,17 @@ BODY {
 /* section title banners */
 /* Style all elements with the class name "sectionheader" */
 .sectionheader {
-  font-size: 1.5em;
-  text-transform: uppercase;
-  background-color: #33485e;
-  color: #fff;
-  margin-top: 20px 10px 0px 0px
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 70%;
-  min-width: 300px;
-  text-align: left;
+  font-size:1.5em;
+  background:#33485e;
+  color: #ffff;
+  text-transform:uppercase;
+  font-weight:400;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-right:0px;
+  margin-left:0px;
+  width:70%;
+  min-width:300px;
 }
 
 /* job titles */
@@ -100,7 +100,10 @@ li {
 
 /* Style the element with the id "degrees" */
 #degrees {
-  margin: 5px 0px 0px 0px;
+  margin-top:5px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin right:0px;
 }
 
 /* Style the element with the id "do" */
@@ -125,7 +128,7 @@ ul {
 }
 
 /* Style all elements with the class name "container" */
-.container {
+#container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
