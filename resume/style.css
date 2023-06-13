@@ -8,6 +8,12 @@ BODY {
   font-weight: 400;
 }
 
+.menu {
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
 /* name banner at top center */
 #name {
   font-size: 3em;
@@ -22,11 +28,6 @@ BODY {
   margin: 0 auto;
 }
 
-.menu {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  text-align: center;
-}
 
 /* position title under contact info */
 #title {
@@ -47,12 +48,13 @@ BODY {
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 20px 10px 0px 0px
   margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
   width: 70%;
   min-width: 300px;
+  text-align: left;
 }
 
 /* job titles */
@@ -92,11 +94,7 @@ li {
 }
 
 #degrees {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-
+  margin: 5px 0px 0px 0px; 
 }
 
 #do {
