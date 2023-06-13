@@ -15,9 +15,17 @@ BODY {
   text-align: center;
   color: #33485e;
   border-style: solid;
-  border-width: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-left: 1px;
   border-color: #33485e;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.menu {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
 }
 
 /* position title under contact info */
@@ -25,6 +33,12 @@ BODY {
   color:#33485e;
   text-transform: uppercase;
   font-size: 1.5em
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* section title banners */
@@ -72,11 +86,6 @@ BODY {
   margin-right: 0px;
 }
 
-.menu {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
 
 li {
   display: inline;
@@ -87,10 +96,31 @@ li {
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  
+
+}
+
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* bulleted list information sizing */
 ul {
   font-size: 1em;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
