@@ -9,45 +9,73 @@ BODY {
 }
 
 /* name banner at top center */
-h1 {
+#name {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
   color: #33485e;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #33485e;
+  margin: auto;
 }
 
 /* position title under contact info */
-strong {
+#title {
   color:#33485e;
   text-transform: uppercase;
   font-size: 1.5em
 }
 
 /* section title banners */
-h2 {
+.sectionheader {
   font-size: 1.5em;
   text-transform: uppercase;
   background-color: #33485e;
   color: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  min-width: 300px;
 }
 
 /* job titles */
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 1.5em;
 }
 
 /* job organizations */
-h4 {
+.organization {
   font-weight: 400;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 /* job dates */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* paragraphs */
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 
 /* bulleted list information sizing */
