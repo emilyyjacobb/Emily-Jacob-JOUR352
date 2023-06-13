@@ -21,13 +21,10 @@ BODY {
   font-size: 3em;
   text-transform: uppercase;
   text-align: center;
-  color: #33485e;
-  border-style: solid;
-  border-top: 1px;
-  border-right: 1px;
-  border-left: 1px;
-  border-color: #33485e;
-  margin: 0 auto;
+  border-bottom: 1px solid #33485e;
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
 }
 
 
