@@ -2,5 +2,42 @@
 .container {
   width:100%;
   max-width:500px;
+}
+
+.container-number-two {
   text-align: center;
+}
+
+.row-number-two {
+  text-align: center;
+}
+
+.i {
+  font-size: 3em;
+}
+
+
+h1 {
+  font-family: 'Special Elite';
+}
+
+h2 {
+  font-family: 'Special Elite';
+}
+
+h3 {
+  font-family: 'Special Elite';
+}
+
+.navbar-brand {
+  font-family: 'Special Elite';
+}
+
+.btn-dark btn-lg px-4 me-md-2{
+   font-family: 'Special Elite';
+}
+
+@media only screen and (max-width: 500px) {
+  padding-top: 50px;
+  background-color: teal
 }
