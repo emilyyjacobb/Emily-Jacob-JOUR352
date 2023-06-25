@@ -1,0 +1,43 @@
+#candy-wrapper {
+  text-align: center;
+}
+
+#byline {
+  font-style: italic
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px
+}
+
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 12px;
+  font-style: italic;
+}
+
+h4 {
+  font-size: 12px;
+  font-style: : normal;
+}
+
+blockquote {
+  font:16px/24px helvetica, sans-serif;
+  font-style: italic
+  margin-top:15px;
+  margin-bottom:15px;
+  color: purple;
+  margin-left:50px;
+  padding-left:15px;
+  border-left:4px solid #ccc;
+}
