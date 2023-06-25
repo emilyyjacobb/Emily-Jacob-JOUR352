@@ -5,7 +5,7 @@ BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
-  font-weight: 400;
+  font-weight: 400; 
 }
 
 /* Style all elements with the class name "menu" */
