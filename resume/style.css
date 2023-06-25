@@ -5,7 +5,7 @@ BODY {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
   color: #444;
-  font-weight: 400; 
+  font-weight: 400;
 }
 
 /* Style all elements with the class name "menu" */
@@ -111,7 +111,7 @@ li {
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 0px;  
 }
 
 /* bulleted list information sizing */
