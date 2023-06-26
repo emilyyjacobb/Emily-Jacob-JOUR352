@@ -17,24 +17,19 @@
 }
 
 .display-5 {
-  color: pink;
+  color: #ECA5B6;
   font-family: 'Abril Fatface', serif;
 }
 
 .lead {
-  color: orange;
+  color: #FF9F6C;
   font-family: serif;
 }
 
-.btn {
-  color: pink;
-}
-
 h2 {
-  background-color: pink;
-  font-family:'Abril Fatface', serif;
-  color: white;
-  font-size: 3px;
+  background-color: #ECA5B6;
+  font-family: 'Abril Fatface', serif;
+  color: #ffff;
 }
 
 .title {
@@ -48,7 +43,7 @@ h4 {
   font-family: serif;
   font-style: italic;
   font-size: 7px;
-  color: orange;
+  color: #FF9F6C;
 }
 
 .organization {
@@ -56,8 +51,9 @@ h4 {
   font-style: italic;
   font-weight: 400;
   font-size: 1.25em;
+  color: #FF9F6C;
   }
-}
+
 
 .date {
   font-family: serif;
@@ -68,19 +64,18 @@ h4 {
   font-style: normal;
 }
 
-p {
-  font-family: serif;
-  font-size: 13px;
-}
 
 .degree {
   font-family: serif;
   font-weight: bold;
+  color: #749F5A;
+  font-size: 1.25em;
 }
 
 .school {
   font-family: serif;
   font-style: italic;
+  font-size: 1.25em;
 }
 
 .graduation {
@@ -90,6 +85,8 @@ p {
 .skill {
   font-family: serif;
   font-weight: bold;
+  color: #749F5A;
+  font-size: 1.25em;
 }
 
 .description{
