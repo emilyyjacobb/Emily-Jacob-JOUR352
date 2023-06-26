@@ -1,6 +1,7 @@
 /* styles for my resume */
 
 /* Style all elements with the class name "container" */
+
 #container {
   width: 100%;
   max-width: 1200px;
@@ -17,148 +18,85 @@
 
 .display-5 {
   color: pink;
+  font-family: 'Abril Fatface', serif;
 }
 
 .lead {
   color: orange;
+  font-family: serif;
 }
 
 .btn {
-  background-color: green;
-  border: none;
-  color: green;
-  padding: 15px 32px;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  color: pink;
 }
 
-.col-md-1 {
+h2 {
   background-color: pink;
-  width: 100000px;
-  height: 20px;
+  font-family:'Abril Fatface', serif;
+  color: white;
+  font-size: 3px;
 }
 
-/* basic style for the entire resume */
-BODY {
-  font-family: 'Open Sans', arial, sans-serif;
-  font-size: 1em;
-  color: #444;
-  font-weight: 400;
-}
-
-/* Style all elements with the class name "menu" */
-.menu {
-  text-align: center;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-}
-
-/* name banner at top center */
-/* Style the element with the id "name" */
-#name {
-  font-size: 3em;
-  text-transform: uppercase;
-  text-align: center;
-  border-bottom: 1px solid #33485e;
-  width:60%;
-  min-width:300px;
-  margin:0 auto;
-}
-
-
-/* position title under contact info */
-/* Style the element with the id "title" */
-#title {
-  color:#33485e;
-  text-transform: uppercase;
-  font-size: 1.5em
-  font-weight: 600;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
-/* section title banners */
-/* Style all elements with the class name "sectionheader" */
-.sectionheader {
-  font-size:1.5em;
-  background:#33485e;
-  color: #ffff;
-  text-transform:uppercase;
-  font-weight:400;
-  margin-top:20px;
-  margin-bottom:10px;
-  margin-right:0px;
-  margin-left:0px;
-  width:70%;
-  min-width:300px;
-}
-
-/* job titles */
-/* Style all elements with the class name "jobtitle" */
-.jobtitle {
+.title {
+  font-family: serif;
+  color: #749F5A;
   font-weight: 600;
   font-size: 1.5em;
 }
 
-/* job organizations */
-/* Style all elements with the class name "organization" */
+h4 {
+  font-family: serif;
+  font-style: italic;
+  font-size: 7px;
+  color: orange;
+}
+
 .organization {
+  font-family: serif;
+  font-style: italic;
   font-weight: 400;
   font-size: 1.25em;
+  }
 }
 
-/* job dates */
-/* Style all elements with the class name "date" */
 .date {
-  font-weight: 400;
-  font-size: 1em;
-  font-style: italic;
-  margin-top: 2px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  font-family: serif;
 }
 
-/* paragraphs */
-/* Style all elements with the class name "description" */
 .description {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+  font-family: serif;
+  font-style: normal;
 }
 
-
-li {
-  display: inline;
+p {
+  font-family: serif;
+  font-size: 13px;
 }
 
-/* Style the element with the id "degrees" */
-#degrees {
-  margin-top:5px;
-  margin-bottom:0px;
-  margin-left:0px;
-  margin right:0px;
+.degree {
+  font-family: serif;
+  font-weight: bold;
 }
 
-/* Style the element with the id "do" */
-#do {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+.school {
+  font-family: serif;
+  font-style: italic;
 }
 
-/* bulleted list information sizing */
-ul {
-  font-size: 1em;
+.graduation {
+  font-family: serif;
 }
 
-/* Style all elements with the class name "top" */
+.skill {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.description{
+  font-family: serif;
+}
+
+/* KEEP */
 .top {
   width: 60%;
   min-width: 300px;
