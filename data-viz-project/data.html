@@ -3,8 +3,30 @@
 <html lang="en">
 <head>
 
-  <!-- Load c3.css -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Bootstrap Template</title>
+  <meta name="description" content="Merrill College of Journalism, UMD">
+  <meta name="author" content="Emily Jacob">
+
+  <!-- Bootstrap CSS, JavaScript, and Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.14/c3.min.css" rel="stylesheet">
+
+<!-- FontFamily -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,400;0,800;1,800&display=swap" rel="stylesheet">
 
 <!-- Load d3.js and c3.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.2/d3.min.js" charset="utf-8"></script>
@@ -14,10 +36,173 @@
 
 <body>
 
-  <div id="MigrantDeathBarGraph"></div>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
-    <div style="min-height:281px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/d6YbE/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/d6YbE/full.png" alt="" /></noscript></div>
+
+<!-- Container-->
+  <div class="container">
+
+    <p class="date">June 23, 2023</p>
+
+    <p class="headline">5 Deaths at Sea Gripped the World.
+Hundreds of Others Got a Shrug.</p>
+
+    <p class="byline">Many see harsh realities about class and ethnicity in the attention paid to the Titan submersible and the halfhearted attempts to aid a ship before it sank, killing hundreds of migrants. But there are other factors.</p>
+
+    <center><img src="titan_migrant_ship.jpeg" alt="Overcrowded migrant ship and Titan submersible" width="700" height="400"></center>
+
+    <p class="caption">Left: Migrant ship in the Mediterranean Sea. Right: OceanGate Titan Submersible.</p>
+    <p class="source">Source: Hellenic Coast Guard via AP; OceanGate</p>
+<br>
+    <p>On one vessel, five people died on a very expensive excursion that was supposed to return them to the lives they knew. On the other, perhaps 500 people died just days earlier on a squalid and perilous voyage, fleeing poverty and violence in search of new lives.</p>
+
+    <p>After contact was lost with the five inside a submersible descending to the Titanic, multiple countries and private entities sent ships, planes and underwater drones to pursue a faint hope of rescue. That was far more effort than was made on behalf of the hundreds aboard a dangerously overcrowded, disabled fishing trawler off the Greek coast while there were still ample chances for rescue.</p>
+
+    <p>And it was the lost submersible, the Titan, that drew enormous attention from news organizations worldwide and their audiences, far more than the boat that sank in the Mediterranean and the Greek Coast Guard’s failure to help before it capsized.</p>
+
+    <p>The submersible accident, at the site of a shipwreck that has fascinated the public for more than a century, would have captivated people no matter what. But it occurred right after the tragedy in the Mediterranean, and the contrast between the two disasters, and how they were handled, has fueled a discussion around the world in which some see harsh realities about class and ethnicity.</p>
+
+    <p>Aboard the Titan were three wealthy businessmen — a white American, a white Briton and a Pakistani-British magnate — along with the billionaire’s 19-year-old son and a white French deep-sea explorer. Those on the fishing boat — as many as 750, officials have estimated, with barely 100 survivors — were migrants primarily from South Asia and the Middle East, trying to reach Europe.</p>
+<br>
+    <script src="https://code.jquery-3.4.1.slim.min.js" integrity="sha384J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorgin="anonymous"></script>
+    <script src="https://jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorgin="anonymous"></script>
+    <script src="https://stackpath.boostrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384wfSDF2ES50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorgin="anonymous"></script>
+
+
+  <div id="DataWrapper"></div>
 
     <div style="min-height:623px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/HsRSI/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/HsRSI/full.png" alt="" /></noscript></div>
+<br>
+    <p>“We saw how some lives are valued and some are not,” Judith Sunderland, acting deputy director for Europe at the group Human Rights Watch, said in an interview. And in looking at the treatment of migrants, she added, “We cannot avoid talking about racism and xenophobia.”</p>
+
+    <p>At a forum in Athens on Thursday, former President Barack Obama weighed in, saying of the submersible, “the fact that that’s gotten so much more attention than 700 people who sank, that’s an untenable situation.”</p>
+
+    <p>Status and race no doubt play a role in how the world responds to disasters, but there are other factors as well.</p>
+<br>
+<div class="pull-quote">
+    <a><blockquote>"And the unequal
+      <br>
+      treatment of this and the
+      <br>
+      migrant boat catastrophe is
+      <br>
+      unspeakable"</blockquote></a>
+</div>
+<br>
+    <p>Other stories have been followed in minute detail by millions of people, even when those involved were neither wealthy nor white, like the boys trapped deep in a flooded cave in Thailand in 2018. Their plight, like that of the submersible passengers, was one-of-a-kind and brought days of suspense, while few people knew of the migrants until they had died.</p>
+
+    <p>And in study after study, people show more compassion for the individual victim who can be seen in vivid detail than for a seemingly faceless mass of people.</p>
+
+  <div id="DataWrapper"></div>
 
     <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11i528OtNDSVSEFehLT9lFpRvOQpXYm0Wt3w3GZKINNI&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+<br>
+    <p>But the disparity in apparent concern shown for the migrants versus the submersible passengers prompted an unusually caustic backlash in online essays, social media posts and article comments.</p>
+
+    <p>Laleh Khalili, a professor who has taught about international politics and the Middle East at multiple British universities, wrote on Twitter that she felt sorry for the 19-year-old, but that “a libertarian billionaire ethos of ‘we are above all laws, including physics’ took the Titan down. And the unequal treatment of this and the migrant boat catastrophe is unspeakable.”</p>
+
+    <p>Many commenters said they could not muster concern — some even expressed a grim satisfaction — about the fates of people on the submersible who could afford to pay $250,000 apiece for a thrill. Before the U.S. Coast Guard said on Thursday that the vessel had imploded and the five were dead, jokes and the phrase “eat the rich” proliferated online.</p>
+
+    <p>That schadenfreude partly reflects the rising anger in recent years at economic inequality, at the wealthy themselves and at the growing sense that the economy works only for those at the top, said Jessica Gall Myrick, a communications professor at Pennsylvania State University, whose specialty is the psychology of how people use media.</p>
+<br>
+    <center><img src="brothers.webp" alt="Brothers reuniting following the ship sinking" width="700" height="400"></center>
+
+    <p class="caption">Brothers reunite following the sinking of the migrant ship</p>
+    <p class="source">Source: NBC News</p>
+<br>
+    <p>“One of the functions of humor is it helps us bond with people socially, so people who laugh at your joke are on your team and those who don’t aren’t on your team,” she said in an interview. Expressions of anger, she said, can serve the same purpose.</p>
+
+    <p>For human rights advocates, their anger is directed not at the rich but at European governments whose attitudes toward migrants have hardened, not only doing little to help those in trouble at sea but actively turning them away, and even treating as criminals private citizens who try to rescue migrants.</p>
+
+    <p>“I understand why the submersible captured attention: It’s exciting, unprecedented, obviously connected to the most famous shipwreck in history,” said Ms. Sunderland, of Human Rights Watch. “I don’t think it was wrong to make every effort to save them. What I would like is to see no effort spared to save the Black and brown people drowning in the Mediterranean. Instead, European states are doing everything they can to avoid rescue.”</p>
+<br>
+  <div id="DataWrapper"></div>
+
+    <div style="min-height:281px"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/d6YbE/embed.js?v=1" charset="utf-8"></script><noscript><img src="https://datawrapper.dwcdn.net/d6YbE/full.png" alt="" /></noscript></div>
+<br>
+    <p>The chasm between the two tragedies was particularly noted in Pakistan, home to many of those who died on the fishing trawler, and to Shahzada Dawood, the tycoon aboard the Titan. It highlighted Pakistan’s extreme divide between the millions who live in poverty and the ultrarich, and the failure of multiple governments over many years to address unemployment, inflation and other economic woes.</p>
+
+    <p>“How can we complain about the Greek government? Our own government in Pakistan did not stop the agents from playing with the lives of our youth by luring them to travel on such dangerous routes,” said Muhammad Ayub, a farmer in Pakistan-administered Kashmir, whose younger brother was on the fishing vessel that capsized and is believed to have died.</p>
+
+    <p>One factor that made the two maritime disasters very different is the degree of familiarity — though that in no way explains the lack of effort to aid the migrants before their boat sank. It is not just that some people are indifferent to the suffering of migrants — it is also that migrant drownings in the Mediterranean have become tragically frequent.</p>
+<br>
+    <center><img src="titan_remains_1.jpeg" alt="Titan submersible remains being brought back to land" width="700" height="400"></center>
+<br>
+    <center><img src="titan_remains_2.jpeg" alt="Titan submersible remains being brought back to land" width="700" height="400"></center>
+
+    <p class="caption">The remains from the imploded submersible being brought back up to land</p>
+    <p class="source">Source: Paul Daly/The Canadian Press/AP</p>
+<br>
+<div class="pull-quote">
+    <blockquote>"No one cared about
+      <br>
+      the several hundred
+      <br>
+      people" who drowned
+      <br>
+      in the Mediterranean</blockquote>
+</div>
+<br>
+    <p>The rescues of a few people in Turkey who had survived more than a week under the rubble of a powerful earthquake in February — unusual victories amid an unusual disaster — drew the kind of global attention rarely given to the millions of refugees from Syria’s civil war who, for a decade, have lived not far away.</p>
+
+    <p>In 2013, the deaths of more than 300 migrants in another boat disaster off the Italian island of Lampedusa produced an outpouring of concern and increased rescue patrols. When Syrian asylum seekers began trying to reach Europe in enormous numbers in 2015, some governments and people portrayed them as alien, undesirable, even dangerous, but there was also considerable interest and empathy. The wrenching image of a drowned 3-year-old washed up on a beach had an especially profound effect.</p>
+
+    <p>Years and countless migrant boat calamities later, the deaths are no less appalling but attract far less attention. Aid workers call it “compassion fatigue.” The political will to help, always spotty and precarious, has waned with it.</p>
+
+    <p>“No one cared about the several hundred people” who drowned in the Mediterranean, said Arshad Khan, a student of political science at the University of Karachi. “But,” he added, “the United States, the United Kingdom and all the global powers are busy finding the billionaire businessman who spent billions of rupees to view the wreckage of the Titanic in the sea.”</p>
+
+  </div>
+
+  <footer>
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="https://images.unsplash.com/photo-1564982752979-3f7bc974d29a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80
+" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">By Richard Pérez-Peña</h1>
+          <p class="lead">Richard Pérez-Peña’s beats as a reporter have included higher education, the newspaper and magazine industry, health care, political campaigns, government, transportation and courts. Now an editor and writer on International news, based in London and New York, he has handled a range of news from around the world, primarily Europe and the Middle East.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">Read Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
