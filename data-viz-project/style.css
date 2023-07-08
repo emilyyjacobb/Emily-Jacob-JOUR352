@@ -1,22 +1,45 @@
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.topper {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 .date {
-  font-size: 1em;
-  font-family: 'Noto Serif Display', serif;
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
   font-style: italic;
   text-align: center;
 }
 
-.headline {
+heading {
   font-size: 3em;
   font-weight: 700;
   text-align: center;
   font-family: 'Noto Serif Display', serif;
 }
 
-.byline {
-  font-size:1em;
-  font-family: 'Noto Serif Display', serif;
+byline {
+  font-size:1.2em;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-style: italic;
+}
+
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 p {
@@ -40,17 +63,26 @@ p {
 footer {
   text-align: center;
   color: #FFFF;
-  background-color: #FFEF00;
+  background-color: #95CADB;
   font-family: georgia, serif;
-  padding: 50px;
+}
+
+.author {
+  color:#2C3E4C;
+  font-weight: bold;
+  text-align: left;
+}
+
+.lead {
+  text-align: left;
 }
 
 .pull-quote {
   padding-left: 20px;
-  width: 75%;
+  width: 520px;
   margin:0 auto;
   text-align: left;
-  border-left:3px solid #000;
+  border-left:3px solid #2C3E4C;
 }
 
 blockquote {
@@ -59,4 +91,9 @@ blockquote {
   font-style: italic;
   font-family: 'Noto Serif Display', serif;
   font-size:2em;
+  color:#2C3E4C;
+}
+
+.button {
+  text-align: center;
 }
