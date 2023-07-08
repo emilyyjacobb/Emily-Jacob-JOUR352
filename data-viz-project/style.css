@@ -97,3 +97,15 @@ blockquote {
 .button {
   text-align: center;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {heading: 20px; }
+@media (min-width: @screen-sm-min) {byline 10px; }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {heading: 40px; }
+@media (min-width: @screen-md-min) {byline:30px; }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {headline: 60px; }
+@media (min-width: @screen-lg-min) {byline: 50px; }
