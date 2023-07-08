@@ -99,13 +99,31 @@ blockquote {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {heading: 20px; }
-@media (min-width: @screen-sm-min) {byline 10px; }
+@media (min-width: @screen-sm-min) {
+  heading {
+    font-size: 5px;
+  }
+  byline {
+    font-size: 3px;
+  }
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {heading: 40px; }
-@media (min-width: @screen-md-min) {byline:30px; }
+@media (min-width: @screen-md-min) {
+  heading {
+    font-size: 20px;
+  }
+  byline {
+    font-size: 16px;
+  }
+}
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {headline: 60px; }
-@media (min-width: @screen-lg-min) {byline: 50px; }
+@media (min-width: @screen-lg-min) {
+  heading {
+    font-size: 24px;
+  }
+  byline {
+    font-size: 20px;
+  }
+}
